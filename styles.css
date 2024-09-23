@@ -1,0 +1,85 @@
+/* Grid Layout: The CSS Grid Layout Module offers a grid-based layout system,
+with rows and columns,
+making it easier to design web pages without having to use floats and positioning. */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.container {    
+    background: #eee;
+    width: 700px;
+    margin: auto;
+
+
+    display: grid;
+    /* grid-template-columns: 250px 200px auto;
+    grid-template-rows: 150px 100px 120px; */
+
+    /* we also set in percentage */
+    /* grid-template-columns: 25% 25% auto;
+    grid-template-rows: 150px 100px 120px; */
+
+    /* one new unit "fr" is fractional unit */
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 150px 100px 120px;
+
+    grid-gap: 20px;
+
+    /* repeat function (ek sat ap ko jitnay colum , rows chai ha ek je width , height)*/
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    color: pink;
+}
+
+.items1 {
+    background: orangered;
+    color: aliceblue;
+    font-size: large;
+    font-weight: 600;
+    text-align: center;
+}
+
+.items2 {
+    background: yellowgreen;
+    color: aliceblue;
+    font-size: large;
+    font-weight: 600;
+    text-align: center;
+}
+
+.items3 {
+    background: slateblue;
+    color: aliceblue;
+    font-size: large;
+    font-weight: 600;
+    text-align: center;
+}
+
+.items4 {
+    background: hotpink;
+    color: aliceblue;
+    font-size: large;
+    font-weight: 600;
+    text-align: center;
+}
+
+.items5 {
+    background: royalblue;
+    color: aliceblue;
+    font-size: large;
+    font-weight: 600;
+    text-align: center;
+}
+
+.items6 {
+    background: darkorange;
+    color: aliceblue;
+    font-size: large;
+    font-weight: 600;
+    text-align: center;
+}
